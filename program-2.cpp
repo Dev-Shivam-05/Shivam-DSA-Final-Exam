@@ -81,7 +81,7 @@ public:
             temp.push_back(array[j++]);
         }
         
-        for (int k = 0; i < temp.size(); i++)
+        for (int k = 0; k < temp.size(); k++)
         {
             array[start + k] = temp[k];
         }
